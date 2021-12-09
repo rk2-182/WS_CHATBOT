@@ -84,6 +84,8 @@ time.sleep(2)
 delay = 10
 last_message =''
 
+
+time.sleep(3)
 while True:
     #Buscar nuevos mensajes en ws (buscar punto verde y moverse 100px a izq.)
     nav_to_image('img/notificacion.JPG',2,off_x=-100) #1
